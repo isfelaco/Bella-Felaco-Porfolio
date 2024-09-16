@@ -16,7 +16,6 @@ export const pages: { [id: string]: ReactElement } = {
 export function App() {
 	return (
 		<div className="App">
-			hello
 			<Routes>
 				{Object.entries(pages).map(([route, element], i) => (
 					<Route path={route} element={element} key={i} />
